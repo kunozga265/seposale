@@ -1,0 +1,22 @@
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+header.header .header-menu .logo img{
+    height: 70px;
+}
+
+.image-placeholder{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a.product-img{
+    margin: 20px 0;
+}
+
+.product-img > .image-placeholder{
+    height: 220px;
+    width: 100%;
+}
